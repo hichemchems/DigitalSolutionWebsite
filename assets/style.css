@@ -1,5 +1,56 @@
+* {
+    color: aliceblue;
+    text-shadow: 2px -1px 4px black;
+    padding:0% ;
+    margin: 0% ;
+    box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: aliceblue !important;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+
+a:hover{
+  color: #0af40a !important;
+  text-shadow: 1px -1px 4px rgb(6, 10, 8);
+}
+
+body {
+  background-image:  url("../image/smartphoneBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+  
+}
+
+header{
+  position: fixed;
+  height: 20vh;
+  width: 100%;
+}
+
+.navbar{
+  height: 20vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  
+}
+
 h1{
-  color: blue !important;
+  color: aliceblue !important;
   font-size: 30px;
 }
 
@@ -7,6 +58,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 3% !important;
 }
 
 .all{
@@ -14,12 +66,25 @@ h2{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(./image/cyber-brain-7662721_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+.allPara{
+ 
+  background-image: url(./image/web-5004174_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p{
   font-size: 20px;
-  color: #000;
-  margin: 10px;
+  margin: 10px !important;
 
 }
 
@@ -28,6 +93,6 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 25px;
+  margin: 3%;
   text-align: justify;
 }
