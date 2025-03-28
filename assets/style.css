@@ -70,7 +70,7 @@ h2 h3{
   padding: 3% !important;
   color: aliceblue;
   text-shadow: 2px -1px 4px black;
-  text-align: center;
+  text-align: center !important;
 }
 
 .all{
