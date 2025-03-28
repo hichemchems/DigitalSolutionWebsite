@@ -63,13 +63,14 @@ h1{
     text-shadow: 2px -1px 4px black;
 }
 
-h2{
+h2 h3{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3% !important;
   color: aliceblue;
-    text-shadow: 2px -1px 4px black;
+  text-shadow: 2px -1px 4px black;
+  text-align: center;
 }
 
 .all{
